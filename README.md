@@ -22,6 +22,7 @@ Currently available
 -   Support for [**EC2 API Internal Error**](https://github.com/adhorn/aws-fis-experiment-templates/blob/main/ec2-control-plane/fis-internal-error.json)
 -   Support for [**EC2 API Unavailable Error**](https://github.com/adhorn/aws-fis-experiment-templates/blob/main/ec2-control-plane/fis-unavailable-error.json)
 -   Support for [**EC2 Spot Interruption**](https://github.com/adhorn/aws-fis-experiment-templates/blob/main/spot-interruption/fis-spot-interruption.json)
+-   Support for [**Terminating instances in Auto Scaling Group in particular AZ**](https://github.com/adhorn/aws-fis-experiment-templates/tree/main/auto-scaling-group-faults)
 
 
 
@@ -36,7 +37,7 @@ Prerequisites:
 Important:
 ----------
 
-Before using these templates, replace all occurences of **<ACCOUNT_ID>**, **<INSTANCE_ID>**, **<IAM_ROLE>**, **<CLOUDWATCH_ALARM>** with your own particular ones.
+Before using these templates, replace all occurences of **<ACCOUNT_ID>**, **<INSTANCE_ID>**, **<IAM_ROLE>**, **<CLOUDWATCH_ALARM>**, **<IAM_ROLE_SSM>** with your own particular ones.
 
 
 
